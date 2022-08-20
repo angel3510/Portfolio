@@ -1,0 +1,107 @@
+/* STYLING THE HEADDING */
+body {
+    background-color: rgb(140, 192, 197);
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+/* title and nav */
+#heading a {
+    padding: 20px;
+    background:  rgb(140, 192, 197);
+    size: 1000px;
+    height: 100px;
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    color: black
+}
+/* nav bar section */
+.nav ul{
+   list-style: none;
+   padding: 0;
+   margin: 0; 
+   text-align: right;
+}
+.nav li {
+ 
+display: inline-block;
+text-align: center;
+}
+.nav a {
+    font-size: 100%;
+    padding: 20px;
+    border: 5px solid black;
+    color: black;
+}
+.nav a:hover {
+    background: #fff;
+}
+  /* all the headings */
+h2 {
+    color: black;
+    background-color:  rgb(140, 192, 197);
+    text-align: center;
+    height: 10vh;
+    font-size: 10vh;
+}
+/* about */
+#me {
+    width: 100px;
+    height: fit-content;
+    display: flex;
+    padding: 35px; 
+}
+#about-content{
+    display: flex;
+    text-align: left;
+    padding: 25px;
+}
+
+#logo{
+    width: 100%;
+    padding: 25px 25px 25px 25px;
+    margin: 10px;
+}
+#runbuddy {
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px 20px 10px;
+}
+#title-run a {
+    color: black;
+    size: 20%s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.works {
+    display: flex;
+    margin: 10px;
+   height: 250px;
+    border: 2px solid black;
+}
+.workstwo {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    border: 3px solid black;
+    height: 250px;
+    text-align: right;
+}
+.about {
+    text-align: center;
+    color: black;
+}
+#contact{
+    border: 10px solid black;
+    padding: 10px;
+    color: black;
+}
+.contact {
+    color: black;
+    text-align: center;
+    margin: auto;
+}
